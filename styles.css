@@ -1,3 +1,26 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+}
+
+a {
+    font-family: 'Amatic SC', cursive;
+}
+
+p,
+span {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
 .main-img {
     background-image: url('img/woman.jpg');
     background-size: cover;
