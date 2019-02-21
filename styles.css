@@ -21,6 +21,20 @@ p {
     font-size: 1.3rem;
 }
 
+nav ul a {
+    font-size: 1.75rem;
+}
+
+.sidenav li a {
+    font-size: 2rem;
+}
+
+.contact-button {
+    margin-bottom: 25px;
+}
+
+
+
 .main-img {
     background-image: url('img/woman.jpg');
     background-size: cover;
