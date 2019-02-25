@@ -51,4 +51,12 @@ nav ul a {
     .main-img {
         height: 650px;
     }
+
+}
+
+@media screen and (max-width: 500px) {
+    .brand-logo img {
+        width: 120%;
+        margin-right: 10px
+    }
 }
