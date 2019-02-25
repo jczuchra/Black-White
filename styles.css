@@ -42,6 +42,31 @@ nav ul a {
     height: 1150px;
 }
 
+.main-img::after {
+    content: "";
+    background-image: url('img/sky.png');
+    height: 1080px;
+    opacity: 0.1;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    animation: stars 5s linear infinite;
+}
+
+@keyframes stars {
+    0% {
+        opacity: 0.01;
+    }
+
+    50% {
+        opacity: 0.15;
+    }
+
+    100% {
+        opacity: 0.01;
+    }
+}
+
 .brand-logo img {
     transform: translate(0%, 15%)
 }
@@ -56,6 +81,10 @@ nav ul a {
 @media screen and (max-width: 768px) {
     .main-img {
         height: 650px;
+    }
+
+    .main-img::after {
+        height: 580px;
     }
 
 }
