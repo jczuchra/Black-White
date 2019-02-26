@@ -29,6 +29,15 @@ nav ul a {
     font-size: 2rem;
 }
 
+.sidenav-social {
+    position: absolute;
+    bottom: 10%;
+}
+
+.sidenav-menu-title {
+    font-size: 2.25rem;
+}
+
 .contact-button {
     margin-bottom: 25px;
 }
